@@ -1,1 +1,1 @@
-#IAI - AppImage Installer
+# IAI - AppImage Installer
