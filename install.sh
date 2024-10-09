@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Defina o diretório de instalação (ajuste conforme necessário)
+# Diretŕoio de instalação
 INSTALL_DIR="/usr/local/bin"
 
-# Nome do repositório (ajuste conforme o nome do seu repositório no GitHub)
+# Nome do repositório
 REPO_NAME="iai"
 
 # Nome do diretório temporário
