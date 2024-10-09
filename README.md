@@ -28,6 +28,16 @@ O padrão é `/opt`. Caso o diretório não exista, o script perguntará se voc�
 `/home/user/Downloads/MyApp.AppImage -i /home/user/Downloads/MyApp-icon.png -d /opt`
 
 # Explicação do Script
-1. Localização do Arquivo (`-l` ou `--location`): O caminho completo para o arquivo `.AppImage`.
-2. <b>Icone</b> (`-i` ou `--icon`): Caminho para o ícone do aplicativo.
+1. **Localização do Arquivo** (`-l` ou `--location`): O caminho completo para o arquivo `.AppImage`.
+2. **Icone** (`-i` ou `--icon`): Caminho para o ícone do aplicativo.
+3. **Destino** (`-d` ou `--destination`): Diretório para armazenar o `.AppImage`.
+4. **Categoria** (`-c` ou `--categories`): Categoria para organização do aplicativo no menu.
+
+O script move o arquivo `.AppImage` para o diretório especificado, cria um arquivo .desktop no diretório `/usr/share/applications` para que o aplicativo apareça no menu do sistema, e utiliza o ícone fornecido para facilitar a identificação visual do aplicativo.
+
+# Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias e correções.
+
+# Licença
+Este projeto está licenciado sob a "MIT" "License".
 
