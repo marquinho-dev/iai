@@ -29,5 +29,5 @@ O padrão é `/opt`. Caso o diretório não exista, o script perguntará se voc�
 
 # Explicação do Script
 1. Localização do Arquivo (`-l` ou `--location`): O caminho completo para o arquivo `.AppImage`.
-2. <u>Icone</u> (`-i` ou `--icon`): Caminho para o ícone do aplicativo.
+2. <b>Icone</b> (`-i` ou `--icon`): Caminho para o ícone do aplicativo.
 
