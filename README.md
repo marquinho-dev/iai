@@ -39,5 +39,5 @@ O script move o arquivo `.AppImage` para o diretório especificado, cria um arqu
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias e correções.
 
 # Licença
-Este projeto está licenciado sob a "MIT" "License".
+Este projeto está licenciado sob a > MIT > License.
 
