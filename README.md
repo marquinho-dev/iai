@@ -25,7 +25,7 @@ O padrão é `/opt`. Caso o diretório não exista, o script perguntará se voc�
 + `-c`, `--categories` (opcional): Define a categoria do aplicativo para o menu. O padrão é `Utility`. Exemplo: `Development;Graphics`.
 
 # Exemplo de Uso
-`/home/user/Downloads/MyApp.AppImage -i /home/user/Downloads/MyApp-icon.png -d /opt`
+`iai -l /home/user/Downloads/MyApp.AppImage -i /home/user/Downloads/MyApp-icon.png -d /opt`
 
 # Explicação do Script
 1. **Localização do Arquivo** (`-l` ou `--location`): O caminho completo para o arquivo `.AppImage`.
