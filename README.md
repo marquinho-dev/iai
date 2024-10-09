@@ -7,5 +7,27 @@ O IAI (Install AppImage) é um script Python que automatiza a instalação de ap
 + Git (para clonar o repositório)
 
 # Instalação
-1. Clone o repositório e execute o script install.sh:
+1. Clone o repositório e execute o script `install.sh`:
 + `git clone https://github.com/marquinho-dev/iai.git && cd iai && ./install.sh`
+2. O script `install.sh` irá configurar as permissões e preparar o ambiente para o script `iai`.
+
+# Uso
+1. O script `iai` deve ser chamado diretamente do terminal usando os seguintes argumentos:
++ `iai -l /caminho/para/seu/app.AppImage -i /caminho/para/seu/icon.png -d /opt`
+
+# Argumentos
++ `-l`, `--location` (obrigatório): Especifica o caminho completo para o arquivo `.AppImage`
+que será instalado. Exemplo: `/home/usuario/Downloads/app.AppImage`.
+`-i`, `--icon` (obrigatório): Especifica o caminho completo para o ícone do aplicativo em
+formato `.png` ou `.svg`. Exemplo: `/home/usuario/Downloads/app-icon.png`.
++ `-d`, `--destination` (opcional): Define o diretório onde o arquivo `.AppImage` será movido.
+O padrão é `/opt`. Caso o diretório não exista, o script perguntará se você deseja criá-lo.
++ `-c`, `--categories` (opcional): Define a categoria do aplicativo para o menu. O padrão é `Utility`. Exemplo: `Development;Graphics`.
+
+# Exemplo de Uso
+`/home/user/Downloads/MyApp.AppImage -i /home/user/Downloads/MyApp-icon.png -d /opt`
+
+# Explicação do Script
+1. Localização do Arquivo (`-l` ou `--location`): O caminho completo para o arquivo `.AppImage`.
+2. <u>Icone</u> (`-i` ou `--icon`): Caminho para o ícone do aplicativo.
+
